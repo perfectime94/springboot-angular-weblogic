@@ -34,4 +34,8 @@
 		<!-- Lombok -->
 	</dependencies>
 
+	<modules>
+		<module>backend</module>
+	</modules>
+
 </project>
