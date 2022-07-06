@@ -19,6 +19,19 @@
 	</properties>
 
 	<dependencies>
+		<!-- Internas -->
+		<dependency>
+			<groupId>org.sanidadmadrid</groupId>
+			<artifactId>core</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.sanidadmadrid</groupId>
+			<artifactId>frontend</artifactId>
+			<version>${revision}</version>
+		</dependency>
+		<!-- Internas -->
+
 		<!-- Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
