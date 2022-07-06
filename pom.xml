@@ -36,6 +36,7 @@
 
 	<modules>
 		<module>backend</module>
+		<module>core</module>
 	</modules>
 
 </project>
