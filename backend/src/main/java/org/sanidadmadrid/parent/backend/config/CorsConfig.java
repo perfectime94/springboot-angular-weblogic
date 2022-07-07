@@ -1,7 +1,6 @@
 package org.sanidadmadrid.parent.backend.config;
 
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -9,7 +8,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * Creado por Lineu Martins el 06/07/2022 22:53
  */
 @Configuration
-@Profile("desarrollo")
 public class CorsConfig implements WebMvcConfigurer {
 
 	/*
